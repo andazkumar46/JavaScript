@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event in JavaScript</h1>
+    <p id="data">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magnam tenetur commodi aperiam optio tempore molestias cumque, veritatis vel esse pariatur temporibus veniam dignissimos deleniti dolore, eaque harum modi iure.</p>
+    <button onclick="toggle()">Show/Hide</button>
+    <script>
+        let data=document.getElementById('data');
+        function toggle(){
+            if(data.style.display!='none'){
+                data.style.display='none'
+            }
+            else{
+                data.style.display='block'
+            }
+
+        }
+
+
+    </script>
+</body>
+</html> -->
+
+<!-- touch Screen -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>Event in JavaScript</h1>
+    <div id="touch">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quas.</div>
+    <script>
+        const tuchDiv=document.getElementById('touch');
+        tuchDiv.addEventListener('touchstart',()=>{
+            tuchDiv.style.backgroundColor='red'  
+        })
+    </script>
+
+ </body>
+ </html>
