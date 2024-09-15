@@ -1,0 +1,18 @@
+body {
+    padding : 0;
+    margin : 0
+}
+p{
+    background-color: yellow;
+    color: black;
+}
+.parent {
+    background-color: blue;
+    height: 450px;
+    width: 250px;
+}
+#child {
+    background-color: aqua;
+    height: 300px;
+    width: 200px;
+}

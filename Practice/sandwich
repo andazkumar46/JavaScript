@@ -1,0 +1,11 @@
+let bread1= prompt("which bred would you like to have ?");
+let veggies1= prompt("what are your favorite veggies ?");
+let sauce1= prompt("which sauce would you loke to have ?");
+
+function makesandWhich(bread , veggies , sauce){
+    let snadWhich= bread +" bread " + veggies +" veggies " +sauce + " sauce sandwhich is ready";
+    return snadWhich;
+}
+let vegSandwhich = makesandWhich
+(bread1, veggies1, sauce1);
+console.log(vegSandwhich);

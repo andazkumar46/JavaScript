@@ -1,0 +1,6 @@
+function cookMaggi(maggi , pani , tapali){
+    console.log("your maggi will be ready in " + maggi*2 + " minutes and intgredients used are :- " + maggi + " maggi " + pani
+        + " cups of water using " + tapali + " pani"
+    )
+}
+cookMaggi(4 , 8, 1);
